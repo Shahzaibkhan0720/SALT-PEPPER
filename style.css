@@ -1,0 +1,217 @@
+body{
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    max-height: 100vh;
+    display:inline-flex;
+    position: relative;
+
+}
+
+.logo{
+    padding: 10px 0px 10px 40px;
+}
+
+.nav > ul > li{
+    list-style:none;
+    display: inline;
+    padding: 10px;
+    color: #faf8f8;
+}
+
+.nav{
+    position: absolute;
+    top: 30%;
+    left:50%;
+}
+    
+.getfrenchisebtn{
+    position: absolute;
+    top: 30%;
+    left:75%;
+}
+
+.getfrenchisebtn > .btn1{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: #faf8f8;
+    border: 1px solid white;
+}
+
+.orderbtn{
+    position: absolute;
+    top: 30%;
+    left: 85%;   
+}
+
+.orderbtn > .btn2{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: red;
+    color: #faf8f8;
+    border: 1px solid red;
+}
+
+.banner > img{
+    width: 100%;
+    height: 600px;
+}
+.cardsheadings{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    color: #faf8f8;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Apercu;
+}
+.cardsheadings h1 > span {
+    font-family: futurak;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 29px;
+
+}
+.cardsheadings > p{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 40px;
+}
+.cards{
+    display: inline-flex;
+}
+.cards > .Restaurant{
+background-color: #faf8f8;
+padding: 10px;
+margin: 20px;
+position: relative;
+}
+
+.cards > .express{
+    background-color: #faf8f8;
+    padding: 10px;
+    margin: 20px;
+}
+
+.cards > .village{
+    background-color: #faf8f8;
+    padding: 10px;
+    margin: 20px;
+}
+#btn{
+    font-size: 16px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    top: 140%;
+    left: 25%;
+}
+#btn1{
+    font-size: 16px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    top: 165%;
+    left: 45%;
+}
+#btn2{
+    font-size: 16px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    top: 165%;
+    left: 65%;
+}
+.midsec{
+    background-color: #212529;
+}
+.midsec-head {
+padding-top: 30px;
+text-align: center;
+color: #faf8f8;
+}
+
+.isl-add > table {
+  width: 100%;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  /* margin-top: 0%; */
+}
+.isl-add th {
+    text-align: left;
+    /* padding-top: 5%; */
+    /* padding-left: 50px; */
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    
+}
+
+
+.isl-add h1{
+    text-align: left;
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 36px; */
+    /* line-height: 50px; */
+    color: #FFFFFF;
+    /* padding-left: 10%; */
+    margin-top: 0%;
+
+}
+
+.isl-add p{
+    text-align: left;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 0px;
+}
+.isl-add button{
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    color: #f3eeee;
+    /* padding-top: 15px; */
+    margin-top: 30px;
+    background-color: #212529;
+}
+.isl-add > p > button{
+    text-align: left;
+}
