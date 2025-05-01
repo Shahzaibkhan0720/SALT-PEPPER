@@ -1,5 +1,6 @@
-body{
+#body {
     margin: 0px;
+    background-color: #0f0f0f;
 }
 
 header{
@@ -526,13 +527,84 @@ padding-right: 3px;
     display: inline-block;
 }
 
-.exp-frn{
-    border: 1px, solid, #212529;
-    background-color: #FFFFFF;
-    padding-left: 0px ;
+.village-card{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
 }
-.exp-frn table{
-    border-collapse: separate;
-    border-spacing: 15px 50px;
-        
+
+.exp-frn{
+    
+    background-color: #0f0f0f;
+    
+}
+
+.exp-frn th{
+    text-align: center;
+    width: 394px;
+    padding: 20px;
+    border: 10px solid;
+    background: #FFFFFF;
+}
+
+.exp-frn .sm-head{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    /* display: inline-block; */
+}
+.village-card .para span{
+    font-weight: 600;
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+
+.social-field{
+    
+    background-color: #0f0f0f;
+    
+}
+.social-field h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.social-field th{
+    position: relative;
+    display: flex;
+    text-align: center;
+    
+}
+.social-field img{
+    padding: 6px;
+    width: 250px;
+    height: 250px;
+}
+.social-field video{
+    width: 250px;
+    height: 250px;
+    padding: 6px;
+}
+
+.footer{
+    display: flex;
+    position: relative;
 }
