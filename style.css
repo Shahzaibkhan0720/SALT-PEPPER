@@ -605,6 +605,115 @@ padding-right: 3px;
 }
 
 .footer{
+    /* display: flex;
+    position: relative; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1.5fr 0.8fr 1fr 0.8fr;
+    grid-template-rows: auto;
+    grid-template-areas: ". . . .";
+    gap: 30px 45px;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 55px;
+}
+.about img{
+    width: 150px;
+
+}
+.about p {
+    margin: 0px !important;
+    padding-bottom: 24px;
+    padding-right: 0px;
+    text-align: left;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer h1{
+    margin-bottom: 0px !important;
+    font-family: 'Butler';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+.footer li {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+.contact p {
+    margin: 0px !important;
+    padding-bottom: 24px;
+    padding-right: 0px;
+    text-align: left;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.social-icon{
+    display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+        padding-top: 20px;
+}
+.social-icon img{
+        display: flex;
+        align-items: center;
+        margin-right: 8px;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: #ED1C24;
+        color: #fff;
+        border-radius: 50px;
+}
+
+.cp{
     display: flex;
     position: relative;
 }
+.cp .snpmain{
+    padding-left: 30px;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    width: 1100px;
+}
+
+.cpright{
+        /* padding-left: 30px; */
+        font-family: 'Apercu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.7);
+        /* width: 1300px; */
+    }
